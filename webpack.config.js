@@ -38,7 +38,7 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
-        './public/favicon.ico',
+        //'./public/favicon.ico',
         './public/style.css',
       ]
     })
